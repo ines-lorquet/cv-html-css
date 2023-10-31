@@ -1,0 +1,57 @@
+body {
+    background-image: url("images/5490618-blanc-degrade-fond-fluide-gris-vague-fond-degrade-illustrationle-gratuit-vectoriel.jpg");
+    background-size: 2500px 2000px;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    text-align: center;
+  }
+  
+  h2 {
+    color : rgb(0, 0, 0);
+    text-align: left;
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 80px;
+    border-left: 6px solid rgb(0, 0, 0);
+  }
+  h3 {
+    color: rgb(68, 68, 68);
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 80px;
+  }
+  p {
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+    margin-left: 80px;
+  }
+
+.gallery {
+    margin: 0px;
+    border: 0px solid #ccc;
+    float: center;
+    width: 100%;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;    
+  }
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-left: 200px;
+  }
+  
+.gallery:hover {
+    width: 200px;
+    height: 200px;
+  }
+
+  .fa-solid {
+    font-size: 29px;
+  }
